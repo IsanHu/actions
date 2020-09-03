@@ -2,7 +2,7 @@
 
 set -eo pipefail
 
-xcodebuild -project heishi-ios.xcodeproj \
+xcodebuild -project heishi-ios/heishi-ios.xcodeproj \
             -scheme heishi-ios \
             -sdk iphoneos \
             -configuration AppStoreDistribution \
