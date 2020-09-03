@@ -2,8 +2,8 @@
 
 set -eo pipefail
 
-xcodebuild -archivePath $PWD/build/Calculator.xcarchive \
-            -exportOptionsPlist Calculator-iOS/Calculator\ iOS/exportOptions.plist \
+xcodebuild -archivePath $PWD/build/heishi-ios.xcarchive \
+            -exportOptionsPlist /Users/isanhu/Desktop/CICD/ExportOptions.plist \
             -exportPath $PWD/build \
             -allowProvisioningUpdates \
             -exportArchive | xcpretty
