@@ -1,9 +1,9 @@
-runs-on: self-hosted
 name: Deploying
 on: 
   workflow_dispatch:
 jobs:
   deploy:
+    runs-on: self-hosted
     name: Deploying to Testflight
     runs-on: macOS-latest
     steps:
