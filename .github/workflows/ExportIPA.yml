@@ -14,3 +14,7 @@ jobs:
         run: ./.github/scripts/archive_app.sh
       - name: Exporting .ipa
         run: ./.github/scripts/export_ipa.sh
+      - name: upload to PGY
+        env:
+          PGY_API_KEY: ${{ secrets.PGY_API_KEY }}
+        run: ./.github/scripts/upload_pgy.sh
