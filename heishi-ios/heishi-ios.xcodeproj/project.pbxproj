@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94B5A4CC25024521008F879E /* ExportOptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
 		94CD7ADF25008C42004B76E4 /* actions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = actions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CD7AE225008C43004B76E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94CD7AE425008C43004B76E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 				94CD7AEB25008C44004B76E4 /* Assets.xcassets */,
 				94CD7AED25008C44004B76E4 /* LaunchScreen.storyboard */,
 				94CD7AF025008C44004B76E4 /* Info.plist */,
+				94B5A4CC25024521008F879E /* ExportOptions.plist */,
 			);
 			path = "heishi-ios";
 			sourceTree = "<group>";
