@@ -19,7 +19,10 @@ echo "ddd5"
 security create-keychain -p "" build.keychain
 echo "ddd6"
 security import ./.github/secrets/HeiShi.p12 -t agg -k ~/Library/Keychains/build.keychain -P "123456" -A
+echo "import 开发证书"
+security import ./.github/secrets/dev.p12 -t agg -k ~/Library/Keychains/build.keychain -P "123456" -A
 echo "ddd7"
+
 
 security list-keychains -s ~/Library/Keychains/build.keychain
 echo "ddd8"
