@@ -1,9 +1,9 @@
-name: Deploying
+name: PGY
 on: 
   workflow_dispatch:
 jobs:
   deploy:
-    name: Deploying to Testflight
+    name: Deploying to PGY
     runs-on: macOS-latest
     steps:
       - name: Checkout repository
