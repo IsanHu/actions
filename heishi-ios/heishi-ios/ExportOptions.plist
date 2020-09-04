@@ -11,7 +11,9 @@
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>org.heishi-ios</key>
-		<string>ios-team</string>
+		<string>profile_AdHoc</string>
+		<key>org.heishi-ios.HeishiUserNotificationServerice</key>
+		<string>prifile_AdHoc_NotificationService</string>
 	</dict>
 	<key>signingStyle</key>
 	<string>manual</string>

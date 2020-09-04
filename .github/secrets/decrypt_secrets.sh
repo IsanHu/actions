@@ -8,12 +8,11 @@ gpg --quiet --batch --yes --decrypt --passphrase="$IOS_KEYS" --output ./.github/
 echo "ddd3"
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
 echo "ddd4"
-echo "是有缓存吗????"
+echo "拷贝所有的profile"
 ls -al ./.github/secrets/
-cp ./.github/secrets/ios-team.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/ios-team.mobileprovision
+cp ./.github/secrets/*.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/
 ls -al ~/Library/MobileDevice/Provisioning\ Profiles
-# chmod 777 ~/Library/MobileDevice/Provisioning\ Profiles/Heishi_AppStore.mobileprovision
-# ls -al ~/Library/MobileDevice/Provisioning\ Profiles
+ls -al ~/Library/MobileDevice/Provisioning\ Profiles
 echo "ddd5"
 
 security create-keychain -p "" build.keychain
