@@ -8,6 +8,8 @@ gpg --quiet --batch --yes --decrypt --passphrase="$IOS_KEYS" --output ./.github/
 echo "ddd3"
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
 echo "ddd4"
+echo "是有缓存吗"
+ls -al ./.github/secrets/
 cp ./.github/secrets/profile_adhoc.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/profile_adhoc.mobileprovision
 ls -al ~/Library/MobileDevice/Provisioning\ Profiles
 # chmod 777 ~/Library/MobileDevice/Provisioning\ Profiles/Heishi_AppStore.mobileprovision
