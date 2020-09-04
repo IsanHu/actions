@@ -12,6 +12,8 @@ jobs:
         env:
           IOS_KEYS: ${{ secrets.IOS_KEYS }}
         run: ./.github/secrets/decrypt_secrets.sh
+      - name: Install dependency
+        run: ./.github/scripts/processDependency.sh
       - name: Archiving project
         env:
           PR_NUMBER: $(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
