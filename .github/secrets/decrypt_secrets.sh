@@ -9,6 +9,7 @@ echo "ddd3"
 mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
 echo "ddd4"
 cp ./.github/secrets/Heishi_AppStore.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/Heishi_AppStore.mobileprovision
+ls -al ~/Library/MobileDevice/Provisioning\ Profiles
 echo "ddd5"
 
 security create-keychain -p "" build.keychain
